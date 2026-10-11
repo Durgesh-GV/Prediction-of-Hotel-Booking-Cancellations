@@ -1,9 +1,19 @@
-# Hotel Booking Demand Analysis
+# Prediction of Hotel Booking Cancellation
 
 ## Project Description
-This project performs Exploratory Data Analysis and visualization on the Hotel Booking Demand dataset and uses a Deep Learning model to predict hotel booking cancellations.
+
+This project performs Exploratory Data Analysis (EDA) and data visualization on the Hotel Booking Demand dataset. It uses a Deep Learning model to predict whether a hotel booking will be cancelled.
+
+## Objectives
+
+- Explore and understand hotel booking data.
+- Clean and preprocess the dataset.
+- Visualize booking patterns and cancellation trends.
+- Build a Deep Learning model to predict booking cancellations.
+- Evaluate model performance using appropriate metrics.
 
 ## Technologies Used
+
 - Python
 - Pandas and NumPy
 - Matplotlib and Seaborn
@@ -11,17 +21,33 @@ This project performs Exploratory Data Analysis and visualization on the Hotel B
 - Scikit-learn
 
 ## Dataset
-[Hotel Booking Demand Dataset — Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+
+The project uses the Hotel Booking Demand dataset available on Kaggle.
+
+[View the Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 
 ## Project Contents
-- Python source code
-- Assignment report
-- Visualization charts
+
+- Jupyter Notebook containing the Python code
+- Project report
+- Data visualization charts
 - Model evaluation results
 
-## Results
-The model achieved 84.36% accuracy and a ROC-AUC score of 0.9087 on the test dataset.
+## Model Results
+
+The model achieved the following results on the test dataset:
+
+- **Accuracy:** 84.36%
+- **ROC-AUC Score:** 0.9087
+
+These results indicate that the model can distinguish between bookings that are cancelled and those that are not cancelled.
+
+## Conclusion
+
+This project demonstrates how Exploratory Data Analysis, data visualization, and Deep Learning can be used to analyze hotel booking patterns and predict booking cancellations.
 
 ## Author
-Durgesh G V, Department of Artificial Intelligence and Data Science
+
+Durgesh G V  
+Department of Artificial Intelligence and Data Science  
 KPR Institute of Engineering and Technology
